@@ -1,7 +1,7 @@
 def caesar_cipher(text, shift, encrypt=True):
     result = ""
     for char in text:
-        if char.isalpha():  # Check if the character is a letter
+        if char.isalpha():  
             if encrypt:
                 shifted = ord(char) + shift
             else:
